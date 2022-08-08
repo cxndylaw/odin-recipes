@@ -1,0 +1,43 @@
+#title {
+    color: plum;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a:link {
+    color: rgb(132, 148, 236);
+}
+
+a:visited {
+    color: rgb(213, 161, 255);
+}
+
+a {
+    display: block;
+}
+
+.recipes {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-color: beige;
+
+}
+
+/* these are the body text (excluding images) */
+p, h2, h4, li, a {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20cm;
+}
