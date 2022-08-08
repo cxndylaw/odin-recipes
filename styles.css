@@ -32,11 +32,23 @@ h4 {
     text-align: center;
 }
 
-#img {
+#img,
+.img2 {
+    display: block;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #555
+}
+
+.img2 {
+
+    width: 500px;
+    height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 5px solid #555
+    padding: 30px; 
 }
 
 body {
@@ -50,3 +62,4 @@ p, h2, h4, li, a {
     margin-right: auto;
     width: 20cm;
 }
+
